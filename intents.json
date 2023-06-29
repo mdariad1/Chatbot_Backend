@@ -1,0 +1,248 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Greetings",
+        "Howdy",
+        "Yo",
+        "I have a question"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Good morning, welcome to the virtual campus",
+        "Good afternoon, how may I assist you today?",
+        "Greetings, how may I assist you today?",
+        "Hey, what can I help you with?",
+        "Hi, I'm here to help. What can I do for you today?",
+        "What's up? How may I assist you today?",
+        "Howdy, what brings you to the virtual campus today?",
+        "Yo, how can I help you out?",
+        "Hi, of course! What can I help you with?",
+        "Hi, sure thing. What's your question?",
+        "Excuse me, I'd be happy to assist. What do you need help with?",
+        "Hi, absolutely. What can I help you with?",
+        "Hey, nothing much. How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Catch you later",
+        "Have a nice day",
+        "Until next time",
+        "Farewell",
+        "Goodnight",
+        "See ya",
+        "Adios",
+        "Later",
+        "Gotta go",
+        "I'm off",
+        "Time to leave"
+      ],
+      "responses": [
+        "Goodbye, have a nice day!",
+        "See you later, alligator!",
+        "Take care, hope to see you soon!",
+        "Until next time, take care!",
+        "Farewell, have a great day!",
+        "Goodnight, sweet dreams!",
+        "See ya, have a good one!",
+        "Adios, have a great day!",
+        "Later, see you soon!",
+        "Gotta go, catch you later!",
+        "I'm off, take care!",
+        "Time to leave, have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thank you so much",
+        "Appreciate it",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem, happy to help!",
+        "Anytime, happy to assist!",
+        "Glad to be of help!",
+        "You're very welcome!",
+        "Of course, anytime!",
+        "My pleasure!",
+        "I'm always here to help!",
+        "It was my pleasure!",
+        "You're welcome, glad I could help!"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How do I apply?",
+        "What are the admission requirements?",
+        "What is the application process?",
+        "What are the deadlines to apply for an admission?",
+        "What documents do I need to submit for admission?",
+        "Can you help me with my application?"
+      ],
+      "responses": [
+        "To apply, you can visit our website and fill out the online application form. The admission requirements vary depending on the program you're interested in. Check this link for more information:",
+        "The application process is fairly simple. You can visit our website and fill out the online application form. Once you've submitted your application, we'll review it and get back to you. Here is a link to to the admission website:",
+        "To apply, you'll need to submit your transcripts and other required documents. You can find more information by visiting our website here:",
+        "I'd be happy to assist you with your application. Please visit this link to get started:"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Where can I pay my tuition fees?",
+        "Help me with my tuition fees",
+        "How can I pay my tuition fees?",
+        "What should I do to pay my tuition fees?",
+        "How to access the tuition fees payment portal?"
+      ],
+      "responses": [
+        "Tuition fees can be paid on <a href='https://studentweb.uvt.ro/' target='_blank' style='text-decoration: underline;'>STUDENTWEB</a> by entering at FINANCIAL -> PAYMENTS",
+        "You can pay your tuition fees on <a href='https://studentweb.uvt.ro/' target='_blank' style='text-decoration: underline;'>STUDENTWEB</a> by entering at FINANCIAL -> PAYMENTS"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses are offered?",
+        "Can you tell me about the courses?",
+        "What classes do you have?",
+        "What are the available courses?",
+        "I'm interested in the courses",
+        "What courses do you have?"
+      ],
+      "responses": [
+        "We have a variety of courses available. Here is a list of the most important ones :",
+        "Sure, we offer courses in various subjects such as:",
+        "Our courses cover a wide range of subjects. Here is a list of the most important ones:",
+        "We offer a range of courses that cater to different interests and levels. Here is a list of the most important ones:",
+        "We have courses in a variety of subjects. Here is a list of the most important ones:",
+        "Sure, we offer a diverse range of courses. Here is a list of the most important ones:"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "Are there any scholarships available?",
+        "How can I apply for a scholarship?",
+        "What are the scholarship requirements?",
+        "What is the deadline to apply for a scholarship?",
+        "Can you tell me about the scholarships?",
+        "What scholarships do you recommend?"
+      ],
+      "responses": [
+        "We have a variety of scholarships available. Some of them include:",
+        "The scholarship requirements may vary depending on the scholarship you're interested in. Here are some of them: ",
+        "Sure, we have a variety of scholarships available that cater to different interests and levels. Some of them include: ",
+        "We offer a range of scholarships that cater to different interests and levels. I'll list some of them here:"
+      ]
+      },
+    {
+      "tag": "programmes",
+      "patterns": [
+        "What programmes do you offer?",
+        "Can you tell me about your programmes?",
+        "What programmes do you have?",
+        "Are there any programmes available?",
+        "Enlist your available programmes",
+        "Help me choose a programmes"
+      ],
+      "responses": [
+        "Yes, we offer a variety of programmes. Some of them include:",
+        "The requirements for each programme may vary. Here are some examples:",
+        "Sure, we have a range of programmes available that cater to different interests and areas. Some of them include:",
+        "We offer a variety of programmes that cater to different interests and areas. Here are some examples:"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "How can I get to the university?",
+        "How do I find the university?",
+        "Where is the university located?",
+        "What is the address of the university?",
+        "Where can I find information about a specific classroom?",
+        "How can I find hall X?",
+        "Do you have a map for all university halls?",
+        "Where do I go to find hall X?",
+        "Help me find hall X",
+        "How do I get to hall X?"
+      ],
+      "responses": [
+        "Here is some useful information regarding locations:",
+        "Check these links to find your way around the university:"
+      ]
+    },
+    {
+      "tag": "exams",
+      "patterns": [
+        "When is the exam session?",
+        "When will the exam session take place?",
+        "What's the exams session date?",
+        "When will the exam be held?",
+        "Could you let me know the exam schedule?",
+        "Can you help me with the exam schedule?",
+        "Help me with the exam session",
+        "Give me information about the exam session",
+        "Give me info on the exam session"
+      ],
+      "responses": [
+        "Here is the exam schedule for this year:",
+        "Check the link below to find your exam schedule:",
+        "You can find the corresponding exam schedule here:"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "What is your phone number?",
+        "What is your email address?",
+        "How can I get in touch with you?",
+        "Give me some contact information",
+        "Do you have any contact details?",
+        "Any way I can contact you?",
+        "Provide me with the faculty's phone number",
+        "Give me the faculty's email address",
+        "How can I get in touch with your faculty?",
+        "Do you have a number or an email address?"
+      ],
+      "responses": [
+        "Here is a list with all our contact data:",
+        "You can find our contact details here:",
+        "You can contact us using the following information:"
+      ]
+    }
+  ]
+}
